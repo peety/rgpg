@@ -1,0 +1,3 @@
+useDynLib(rgpg)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
